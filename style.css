@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: arial;
+}
+body {
+  background-color: rgb(16, 77, 168);
+  padding: 40px 30px;
+}
+
+.introduction {
+  text-align: center;
+  line-height: 40px;
+}
+.introduction h1 {
+  font-size: 30px;
+  color: white;
+}
+.introduction h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0 0 30px 0;
+}
+
+.score-card {
+  min-width: 350px;
+  max-width: 400px;
+  background-color: white;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.205) ;
+}
+.hide {
+  display: none;
+}
+.score-card p:first-child {
+  padding: 15px 20px;
+}
+.button-p button {
+  background-color: rgb(0, 223, 48);
+  padding: 15px 20px;
+  border: none;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  font-size: 15px;
+  cursor: pointer;
+}
+.button-p button:hover {
+  background-color: rgb(0, 185, 0);
+}
+.quiz{
+  font-size: 20px;
+}
+.question {
+  background-color: white;
+  padding: 10px 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.205);
+}
+.question p:first-child {
+  padding-bottom: 3px;
+  font-size: 18px;
+}
+.question .option {
+  padding: 5px 0 0 20px;
+  font-size: 18px;
+}
+.question .option input {
+  cursor: pointer;
+}
+.correct {
+  background-color: rgb(191, 255, 191);
+}
+.wrong {
+  background-color: rgb(255, 195, 195);
+}
+.quiz p:last-child {
+  margin: 30px 0;
+  text-align: center;
+}
+.submit-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 25px;
+  background-color: rgb(0, 170, 0);
+  color: white;
+  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: rgb(0, 190, 0);
+}
