@@ -75,6 +75,9 @@ body {
 .question .option input {
   cursor: pointer;
 }
+label {
+  padding-bottom: 3px;
+}
 .correct {
   background-color: rgb(191, 255, 191);
 }
